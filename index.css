@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .calculator {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -39,4 +43,34 @@ button {
   font-size: 24px;
   background-color: gold;
   border: none;
+}
+
+.clear {
+  background-color: red;
+  color: white;
+}
+
+.divide {
+  background-color: blueviolet;
+  color: white;
+}
+
+.multiply {
+  background-color: teal;
+  color: white;
+}
+
+.subtract {
+  background-color: palevioletred;
+  color: white;
+}
+
+.add {
+  background-color: orchid;
+  color: white;
+}
+
+.equal {
+  background-color: green;
+  color: white;
 }
