@@ -1,0 +1,42 @@
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 0.875rem;
+  row-gap: 0.875rem;
+  background-color: black;
+  padding: 20px;
+  width: 400px;
+}
+
+.display {
+  grid-column: span 3 / span 3;
+  background-color: white;
+  height: 100%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.zero {
+  grid-column: span 2 / span 2;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px;
+  font-size: 24px;
+  background-color: gold;
+  border: none;
+}
